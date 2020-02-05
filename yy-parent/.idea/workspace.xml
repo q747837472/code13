@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bde8648-569b-489b-afa5-c9e96261b7cb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XFBSv8ujeKyAQrB0XSZ5nytzGy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/yy-framework-utils/src/main/java/youyue/me" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yy-framework-utils/src/main/java" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-projects\yy-parent\yy-framework-utils\src\main\java" />
+      <recent name="E:\idea-projects\yy-parent\yy-service-api\src" />
+      <recent name="E:\idea-projects\yy-parent\yy-framework-model\src" />
+      <recent name="E:\idea-projects\yy-parent\yy-framework-common\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yy-framework-utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.youyue.framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.youyue.framework.UtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UtilsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bde8648-569b-489b-afa5-c9e96261b7cb" name="Default Changelist" comment="" />
+      <created>1580631965184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580631965184</updated>
+      <workItem from="1580631968081" duration="1657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580633539726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580633539726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1580633694673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580633694673" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1580633694673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580633694673" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1580633694673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580633694673" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1580633694673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580633694673" />
+    <state width="905" height="341" key="GridCell.Tab.1.bottom" timestamp="1580633689884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="341" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580633689884" />
+    <state width="905" height="341" key="GridCell.Tab.1.center" timestamp="1580633689884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="341" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580633689884" />
+    <state width="905" height="341" key="GridCell.Tab.1.left" timestamp="1580633689884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="341" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580633689884" />
+    <state width="905" height="341" key="GridCell.Tab.1.right" timestamp="1580633689884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="341" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580633689884" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1580632334868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1580632334868" />
+    <state x="482" y="144" key="chooseDestDirectoryDialog" timestamp="1580632212300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="144" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1580632212300" />
+    <state x="57" y="68" key="new project wizard" timestamp="1580632897658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1580632897658" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580633355591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580633355591" />
+  </component>
+</project>
