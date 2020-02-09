@@ -27,17 +27,17 @@ public enum CmsCode implements ResultCode {
         this.message = message;
     }
 
-    @Override
+   // @Override
     public boolean success() {
         return success;
     }
 
-    @Override
+    //@Override
     public int code() {
         return code;
     }
 
-    @Override
+    //@Override
     public String message() {
         return message;
     }

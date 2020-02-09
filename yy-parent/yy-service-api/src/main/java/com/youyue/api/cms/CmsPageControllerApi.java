@@ -1,6 +1,8 @@
 package com.youyue.api.cms;
 
 import com.youyue.framework.domain.cms.CmsPage;
+import com.youyue.framework.domain.cms.CmsSite;
+import com.youyue.framework.domain.cms.CmsTemplate;
 import com.youyue.framework.domain.cms.request.QueryPageRequest;
 import com.youyue.framework.domain.cms.response.CmsPageResult;
 import com.youyue.framework.model.response.QueryResponseResult;
@@ -8,6 +10,8 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+
+import java.util.List;
 
 @Api(value="cms页面管理接口",description="cms页面管理接口，提供页面的增、删、改、查")
 public interface CmsPageControllerApi {
@@ -21,4 +25,8 @@ public interface CmsPageControllerApi {
     CmsPageResult add(CmsPage cmsPage);
     @ApiOperation("修改信息")
     CmsPageResult update(CmsPage cmsPage);
+    @ApiOperation("查询站点")
+    List<CmsSite> findSite();
+    @ApiOperation("查询模板")
+    List<CmsTemplate> findTemplate();
 }
