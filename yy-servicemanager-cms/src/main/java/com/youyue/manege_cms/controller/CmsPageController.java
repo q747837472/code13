@@ -3,16 +3,14 @@ package com.youyue.manege_cms.controller;
 import com.youyue.api.cms.CmsPageControllerApi;
 import com.youyue.framework.domain.cms.CmsPage;
 import com.youyue.framework.domain.cms.request.QueryPageRequest;
+import com.youyue.framework.domain.cms.response.CmsPageResult;
 import com.youyue.framework.model.response.CommonCode;
 import com.youyue.framework.model.response.QueryResponseResult;
 import com.youyue.framework.model.response.QueryResult;
 
 import com.youyue.manege_cms.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +36,17 @@ public class CmsPageController implements CmsPageControllerApi {
        //
     }
 
+    @Override
+    @PostMapping("/add")
+    public CmsPageResult add(@RequestBody CmsPage cmsPage) {
+        return pageService.add(cmsPage);
+    }
+
+    @Override
+    @PostMapping("/update")
+    public CmsPageResult update(CmsPage cmsPage) {
+        return pageService.update(cmsPage);
+    }
 
 
 }
