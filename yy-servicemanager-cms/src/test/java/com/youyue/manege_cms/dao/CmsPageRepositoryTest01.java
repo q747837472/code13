@@ -5,9 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.*;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -32,6 +30,25 @@ public class CmsPageRepositoryTest01 {
         Pageable pageable = PageRequest.of(page, size);
         Page<CmsPage> all = cmsPageRepository.findAll(pageable);
         System.out.println(all);
+
+    }
+    @Test
+    public void testFindPage2() {
+        int page = 0;
+        int size = 10;
+        Pageable pageable = PageRequest.of(page, size);
+        CmsPage cmsPage=new CmsPage();
+       /* cmsPage.setSiteId("5a751fab6abb5044e0d19ea1");
+        cmsPage.setTemplateId("5a925be7b00ffc4b3c1578b5");*/
+        cmsPage.setPageAliase("课程");
+        ExampleMatcher exampleMatcher = ExampleMatcher.matching()
+                .withMatcher("pageAliase",ExampleMatcher.GenericPropertyMatchers.contains());
+       //下面这种方式无法查出，具体原因存疑，必须用链式编程
+        /* ExampleMatcher exampleMatcher = ExampleMatcher.matching();
+        exampleMatcher.withMatcher("pageAliase",ExampleMatcher.GenericPropertyMatchers.contains());*/
+        Example<CmsPage> example = Example.of(cmsPage,exampleMatcher);
+        Page<CmsPage> all = cmsPageRepository.findAll(example,pageable);
+        System.out.println(all.getContent());
 
     }
 
