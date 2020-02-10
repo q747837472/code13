@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EntityScan("com.youyue.framework.domain.cms")
-@ComponentScan(basePackages = {"com.youyue.api","com.youyue.manege_cms"})
+@ComponentScan(basePackages = {"com.youyue.api","com.youyue.manege_cms","com.youyue.framework"})
 
 public class ManegeCmsApplication {
 

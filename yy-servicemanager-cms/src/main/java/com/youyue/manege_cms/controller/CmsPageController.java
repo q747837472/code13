@@ -10,6 +10,7 @@ import com.youyue.framework.model.response.CommonCode;
 import com.youyue.framework.model.response.QueryResponseResult;
 import com.youyue.framework.model.response.QueryResult;
 
+import com.youyue.framework.model.response.ResponseResult;
 import com.youyue.manege_cms.service.PageService;
 import com.youyue.manege_cms.service.SiteService;
 import com.youyue.manege_cms.service.TemplateService;
@@ -51,9 +52,21 @@ public class CmsPageController implements CmsPageControllerApi {
     }
 
     @Override
-    @PostMapping("/update")
-    public CmsPageResult update(CmsPage cmsPage) {
-        return pageService.update(cmsPage);
+    @GetMapping("/get/{id}")
+    public CmsPage findById(@PathVariable("id") String id) {
+        return pageService.getById(id);
+    }
+
+    @Override
+    @PutMapping ("/edit/{id}")
+    public CmsPageResult edit(@PathVariable("id")String id,@RequestBody CmsPage cmsPage) {
+        return pageService.edit(id,cmsPage);
+    }
+
+    @Override
+    @DeleteMapping ("/del/{id}")
+    public ResponseResult delete(@PathVariable("id")String id) {
+        return pageService.delete(id);
     }
 
     @Override

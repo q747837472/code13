@@ -6,6 +6,7 @@ import com.youyue.framework.domain.cms.CmsTemplate;
 import com.youyue.framework.domain.cms.request.QueryPageRequest;
 import com.youyue.framework.domain.cms.response.CmsPageResult;
 import com.youyue.framework.model.response.QueryResponseResult;
+import com.youyue.framework.model.response.ResponseResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -23,10 +24,15 @@ public interface CmsPageControllerApi {
     QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest);
     @ApiOperation("新增信息")
     CmsPageResult add(CmsPage cmsPage);
+    @ApiOperation("根据id查询")
+    CmsPage findById(String id);
     @ApiOperation("修改信息")
-    CmsPageResult update(CmsPage cmsPage);
+    CmsPageResult edit(String id,CmsPage cmsPage);
+    @ApiOperation("删除信息")
+    ResponseResult delete(String id);
     @ApiOperation("查询站点")
     List<CmsSite> findSite();
     @ApiOperation("查询模板")
     List<CmsTemplate> findTemplate();
+
 }
