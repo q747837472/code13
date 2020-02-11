@@ -13,6 +13,7 @@
         <module>yy-service-api</module>
         <module>yy-framework-common</module>
         <module>../mongoDB</module>
+        <module>test-freemarker</module>
         <module>../yy-servicemanager-cms</module>
     </modules>
     <!--父工程只作为依赖和模块管理用-->

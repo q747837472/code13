@@ -1,5 +1,6 @@
 package com.youyue.manege_cms.service;
 
+import com.youyue.framework.domain.cms.CmsConfig;
 import com.youyue.framework.domain.cms.CmsPage;
 import com.youyue.framework.domain.cms.request.QueryPageRequest;
 import com.youyue.framework.domain.cms.response.CmsCode;
@@ -9,11 +10,13 @@ import com.youyue.framework.model.response.CommonCode;
 import com.youyue.framework.model.response.QueryResponseResult;
 import com.youyue.framework.model.response.QueryResult;
 import com.youyue.framework.model.response.ResponseResult;
+import com.youyue.manege_cms.dao.CmsConfigRepository;
 import com.youyue.manege_cms.dao.CmsPageRepository;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 
 import java.util.Optional;
@@ -23,8 +26,11 @@ import java.util.Optional;
 public class PageService {
 
     @Autowired
-    private CmsPageRepository cmsPageRepository;
-
+     CmsPageRepository cmsPageRepository;
+    @Autowired
+     CmsConfigRepository cmsConfigRepository;
+    @Autowired
+    RestTemplate restTemplate;
     public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest) {
         //防止空指针异常
         if (queryPageRequest == null) {
@@ -116,5 +122,13 @@ public class PageService {
            return new ResponseResult(CommonCode.SUCCESS);
        }
        return new ResponseResult(CommonCode.FAIL);
+   }
+
+   public CmsConfig getConfigById(String id){
+       Optional<CmsConfig>optional=cmsConfigRepository.findById(id);
+       if (optional.isPresent()){
+           return optional.get();
+       }
+       return null;
    }
 }

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mongoDB" />
         <module name="mongoDB_ceshi" />
+        <module name="test-freemarker" />
         <module name="yy-framework-common" />
         <module name="yy-framework-model" />
         <module name="yy-framework-utils" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="mongoDB" target="1.5" />
       <module name="mongoDB_ceshi" target="1.5" />
+      <module name="test-freemarker" target="1.5" />
       <module name="yy-framework-common" target="1.5" />
       <module name="yy-framework-model" target="1.5" />
       <module name="yy-framework-utils" target="1.5" />
